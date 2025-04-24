@@ -73,6 +73,10 @@ for country in os.listdir(build_dir + "/traffic_signs"):
             images[entry["value"]] = image_name + ".gif"
             shutil.copy(f"{build_dir}/traffic_signs/{country}/{image_name}.gif", f"{plugin_dir}/icons/{image_name}.gif")
 
+    if len(os.listdir(f"{plugin_dir}/icons")) == 0:
+        logging.warning(f"skipping plugin for {country} because no images were included")
+        continue
+
     # create plugin.yaml
     plugin_yaml = dict()
     plugin_yaml["id"] = f"trafficsigns{country.lower()}"
