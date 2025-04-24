@@ -1,7 +1,9 @@
 # everydoor-traffic-signs
 [Every Door](https://github.com/Zverik/every_door) plugins for traffic signs (`traffic_sign=*`).
 
-The plugins support one country each, and include traffic signs that appear at least 10 times in taginfo.
+The plugins support one country each, and include traffic signs that appear at least 10 times in taginfo. Every Door >6.0 is required (alpha: https://osmz.ee/everydoor-6.0-alpha4.apk).
+
+Feedback and contributions are welcome.
 
 # Building
 ```sh
