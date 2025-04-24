@@ -1,0 +1,3 @@
+[submodule "traffic_signs_preset_JOSM"]
+	path = traffic_signs_preset_JOSM
+	url = https://github.com/yopaseopor/traffic_signs_preset_JOSM
